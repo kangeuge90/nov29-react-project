@@ -1,0 +1,21 @@
+.searchBarContainer img {
+    height: 20px;
+    width: 20px;
+}
+
+.categoryPicturesContainer {
+    display: flex;
+    padding: 10px;
+}
+
+.categoryPicture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+}
+
+.categoryPicture img {
+    height: 100px;
+    width: 100px;
+}
