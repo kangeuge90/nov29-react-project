@@ -1,6 +1,7 @@
 .categoryPicturesContainer {
     display: flex;
     padding: 10px;
+    justify-content: space-around;
 }
 
 .categoryPicture {
@@ -11,6 +12,6 @@
 }
 
 .categoryPicture img {
-    height: 100px;
-    width: 100px;
+    height: 20vw;
+    width: 20vw;
 }

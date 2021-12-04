@@ -7,3 +7,19 @@
     padding: 6px;
     margin: 6px;
 }
+
+h1 {
+    font-family: 'Corinthia', cursive;
+    font-family: 'Petit Formal Script', cursive;
+    color: #FE6B35;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #A0EDff; */
+    background-color: #EBF875;
+    /* background-color: #28CF75; */
+    /* background-color: #FE6B35; */
+}

@@ -42,12 +42,13 @@ function Header() {
 
     return (
         <div className="headerContainer">
+            <h1>ReciMe.com</h1>
             <form className="searchBarContainer">
-                <label>Search: </label><input></input>
+                <label className="searchBar">Search: </label><input></input>
                 {/* <p ><img src='./favoriteHeart.png'> </img> Access Your Favorites!</p> */}
             </form>
             <div className="categoriesContainer">
-                <h2>Sort by: </h2>
+                <h2 className="sort">Sort by: </h2>
                 <ul className="categoryButtons">
                     <button onClick={clickCuisine}>Cuisine Type</button>
                     <button onClick={clickMeal}>Meal Type</button>
