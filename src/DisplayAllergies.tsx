@@ -17,7 +17,7 @@ function DisplayAllergies() {
             <h3>Nut Allergies</h3>
             <img src={nut} alt="american food"/>
         </div>
-        <div className="categoryPicture" onClick = {() => {setQuery('gluten-free')}}>
+        <div className="categoryPicture" onClick = {() => {setQuery('gluten free')}}>
             <h3>Gluten Free</h3>
             <img src={gluten}></img>
         </div>
@@ -29,7 +29,7 @@ function DisplayAllergies() {
             <h3>Dairy Allergy</h3>
             <img src={dairy}></img>
         </div>
-        <div className="categoryPicture">
+        <div className="categoryPicture" onClick = {() => {setQuery('soy-free')}}>
             <h3>Soy Allergy</h3>
             <img src={soy}></img>
         </div>
