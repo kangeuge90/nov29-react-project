@@ -3,10 +3,14 @@ import getRecipe from "./GetRecipe";
 import { RecipeItem } from "./GetRecipe";
 import {Link} from 'react-router-dom';
 
-function Recipe() {
+export interface Props {
+query: string;
+}
+
+function Recipe({query}: Props) {
     useEffect(() => {
-        getRecipe().then(data => setRecipe(data));
-        }, [])
+        getRecipe(query).then(data => setRecipe(data));
+        }, [query])
 
     const [recipe, setRecipe] = useState<RecipeItem[]>([])
     

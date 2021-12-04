@@ -13,14 +13,15 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Recipe />} />
+       
         {/* <Route path="/more-details" element={<GetDetails />} /> */}
         <Route path="/favorites" element={<Favorites />} />
         <Route path="*" element={<Navigate to="/"/>} />
+        
      
         </Routes>
 
-      <Recipe />
+      
     </div>
     
     </Router>
